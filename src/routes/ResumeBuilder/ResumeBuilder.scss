@@ -1,0 +1,16 @@
+@import "../../commonstyles/cssConfiguration.scss";
+
+.createSection {
+  display: flex;
+}
+.createItems {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border: 1px solid #c3c3c3;
+  padding: 20px;
+  border-radius: 12px;
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
+}
