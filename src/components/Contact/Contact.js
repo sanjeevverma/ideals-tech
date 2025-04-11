@@ -1,7 +1,12 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./Contact.scss";
 
 export const Contact = ({}) => {
+  const navigate = useNavigate();
+  const handleBack = () => {
+    navigate(-1);
+  };
   return (
     <section>
       <div>
@@ -44,7 +49,7 @@ export const Contact = ({}) => {
         <div>Twitter</div>
         <div>Website</div>
         <div>
-          <button>Back</button>
+          <button onClick={handleBack}>Back</button>
           <button>save & Continue</button>
         </div>
       </div>

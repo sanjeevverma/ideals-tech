@@ -14,7 +14,7 @@ export default function ResumeTemplates() {
       <div className="templateSection">
         <div className="templateItem">
           <img
-            src="/assets/images/advanced-resume-builder-template.png"
+            src="../assets/images/advanced-resume-builder-template.png"
             alt=""
           />
           <a href="/create-builder" className="editTempBtn">
@@ -23,14 +23,16 @@ export default function ResumeTemplates() {
         </div>
         <div className="templateItem">
           <img
-            src="/assets/images/corporate-resume-builder-template.png"
+            src="../assets/images/corporate-resume-builder-template.png"
             alt=""
           />
-          <a className="editTempBtn">Edit this template</a>
+          <button className="editTempBtn">Edit this template</button>
         </div>
         <div className="templateItem">
           {/* <img src={template3} /> */}
-          <a className="editTempBtn">Edit this template</a>
+          <button href="" className="editTempBtn">
+            Edit this template
+          </button>
         </div>
       </div>
 

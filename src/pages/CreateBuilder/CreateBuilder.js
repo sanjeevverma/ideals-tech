@@ -1,9 +1,9 @@
 import React from "react";
-import "./index.scss";
+import "./CreateBuilder.scss";
 import { Contact } from "../../components/Contact/Contact";
 import { PreviewResume } from "../../components/PreviewResume/PreviewResume";
 
-export default function index() {
+export default function CreateBuilder() {
   return (
     <>
       <div className="testing1">
