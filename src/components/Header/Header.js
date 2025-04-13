@@ -30,13 +30,13 @@ export const Header = () => {
               {/* <li className="nav-item">
                 <a>Cover Letter</a>
               </li> */}
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a href="/" alt="">
                   Blog
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
-                <a href="/" alt="">
+                <a href="/pricing" alt="">
                   Pricing
                 </a>
               </li>

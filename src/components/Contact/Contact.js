@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./Contact.scss";
 
-export const Contact = ({}) => {
+export const Contact = () => {
   const navigate = useNavigate();
   const handleBack = () => {
     navigate(-1);

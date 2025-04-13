@@ -28,12 +28,15 @@ export default function Home() {
         resume builder, and then quickly generate a matching cover letter. In
         minutes you'll be ready to apply for your next job.
       </section>
+      <section></section>
+
       {/* <section>
         <a href="/resume-templates">Make My Resume Now</a>
       </section>
       <section>
         <a href="/make-resume">Instant Resume Maker</a>
       </section> */}
+
       <Footer />
     </>
   );

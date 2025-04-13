@@ -1,0 +1,66 @@
+@import "../../../commonstyles/cssConfiguration.scss";
+.loginSection {
+  width: 450px;
+}
+.loginData {
+  @include flexBox(flex, center, false, false, column);
+}
+.loginTopSection {
+  @include flexBox(flex, center, false, false, column);
+}
+.loginTitle {
+  @include fontStyle(36px, $black, 600);
+}
+.loginSubText {
+  @include fontStyle(16px, $black, 400);
+  margin: 14px 0 20px;
+}
+.loginOrInfo {
+  @include flexBox(flex, false, center);
+  @include dimensions(100%);
+  @include position(relative, false, false, false, false, 1);
+  margin: 20px 0;
+  &::after {
+    @include position(absolute, 50%, false, false, false, -2);
+    @include dimensions(100%, 1px);
+    content: "";
+    background: #ccc;
+
+    transform: translateY(-50%);
+  }
+  &::before {
+    @include position(absolute, false, false, false, false, -1);
+    @include dimensions(30px, 100%);
+    content: "";
+    background: #fff;
+  }
+}
+.loginFormSection {
+  @include flexBox(flex, false, false, false, column);
+  @include dimensions(100%);
+  padding: 0 30px;
+}
+.loginFromRow {
+  @include flexBox(flex, false, false, false, column);
+  margin-bottom: 10px;
+  label {
+    @include fontStyle(16px, $black, 500);
+    text-transform: capitalize;
+    margin-bottom: 4px;
+  }
+  .formInput {
+    @include fontStyle(16px, $black, 400);
+    border-radius: 8px;
+    border: 1px solid $black;
+    padding: 10px 12px;
+  }
+}
+.rememberInfo {
+  @include flexBox(flex, false, space-between);
+}
+.loginButtonInfo {
+  @include flexBox(flex, false, center);
+}
+.signupAccountInfo {
+  @include flexBox(flex, false, center);
+}

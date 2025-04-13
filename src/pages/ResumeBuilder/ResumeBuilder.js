@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import React from "react";
 import "./ResumeBuilder.scss";
 import { Header } from "../../components/Header/Header";
@@ -15,7 +16,7 @@ export default function ResumeBuilder() {
             template.
           </div>
           <div className="createItems">
-            <a href="">
+            <a href="/">
               Build a new resume We'll guide you through each section.
             </a>
           </div>
